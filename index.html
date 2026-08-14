@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Admission Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Student Admission Form</h1>
+
+<form>
+
+  <div class="form-grid">
+
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" required>
+    </div>
+
+    <div class="form-group">
+      <label for="gender">Gender</label>
+      <select id="gender" name="gender">
+        <option value="">Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+    </div>
+
+    <div class="form-group">
+      <label for="course">Course</label>
+      <select id="course" name="course">
+        <option value="">Select</option>
+        <option value="btech">B.Tech</option>
+        <option value="bsc">B.Sc</option>
+        <option value="bba">BBA</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="marks">Previous Marks (%)</label>
+      <input type="text" id="marks" name="marks">
+    </div>
+
+    <div class="form-group">
+      <label for="address">Address</label>
+      <input type="text" id="address" name="address">
+    </div>
+
+  </div>
+
+  <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
